@@ -1,23 +1,17 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <h1>Embed testing</h1>
-
-
-<script src="https://event-dev.pikemedia.live/iframe/js/index.js"></script>
-<div id="pml-iframe-container-keMTkJui-platform" iframe-name="pml-iframe-keMTkJui-platform" src="https://event-dev.pikemedia.live/?hash=keMTkJui" mode="platform" activity-id="17488"></div>
-<script>
-  if (window.initIframe) {
-    window.initIframe('pml-iframe-container-keMTkJui-platform')
-} else {
-  const intervalId = setInterval(() => {
-    if (window.initIframe) {
-      clearInterval(intervalId);
-      window.initIframe('pml-iframe-container-keMTkJui-platform');
-    }
-  }, 50)}
-</script>
-    
-</body>
-</html>
+ <p>Habr</p>
+ 
+ <div style="position: relative; padding-top: 56.25%; width: 100%"><iframe src="https://kinescope.dev/embed/oopuF93jHFNmjTtftaiV1B?v=2.149.0" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write;" frameborder="0" allowfullscreen style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;"></iframe></div>
+       <iframe
+         width="720"
+         height="405"
+         src="https://site-dev.pikemedia.live/mid/?hash=keMTkJui&code=QELZTM"
+         frameBorder="0"
+         allow="clipboard-write; autoplay"
+         webkitAllowFullScreen
+         mozallowfullscreen
+         allowFullScreen
+       ></iframe>
+     
+ </body>
+ </html>
