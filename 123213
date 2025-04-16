@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Embed testing</h1>
+
+
+<script src="https://event-dev.pikemedia.live/iframe/js/index.js"></script>
+<div id="pml-iframe-container-keMTkJui-platform" iframe-name="pml-iframe-keMTkJui-platform" src="https://event-dev.pikemedia.live/?hash=keMTkJui" mode="platform" activity-id="17488"></div>
+<script>
+  if (window.initIframe) {
+    window.initIframe('pml-iframe-container-keMTkJui-platform')
+} else {
+  const intervalId = setInterval(() => {
+    if (window.initIframe) {
+      clearInterval(intervalId);
+      window.initIframe('pml-iframe-container-keMTkJui-platform');
+    }
+  }, 50)}
+</script>
+    
+</body>
+</html>
